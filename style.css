@@ -45,6 +45,7 @@ html {
   
 
 body {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     width: 100%;
