@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Potato Land - Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="https://img.icons8.com/?size=100&id=wUN0PZMHWsMc&format=png&color=000000">
+            <span>
+                Potato Land
+            </span>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a class='nav-link' href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a class='nav-link' href="#order-form">Order-form</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>
+                Menu
+            </h2>
+            <div id="menu-list">
+                <div class="menu-items">
+                    <img src="https://d2zyb4ugwufqpc.cloudfront.net/media/catalog/product/cache/5604a98872d49d91b76435fa3d088787/p/a/pastramitight.jpg" 
+                    alt="Pastrami Sandwich"
+                    class="menu-image">
+                    <div class="menu-info">
+                        <h3>Pastrami Sandwich</h3>
+                        <p>
+                        With pastrami you don't need anything but that crazy good rye! Even by itself, it's epic! Just a good dose of schwartz's yellow mustard and meat from the point! Pastrami, spicy brown mustard, rye bread
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img src="https://d2zyb4ugwufqpc.cloudfront.net/media/catalog/product/cache/5604a98872d49d91b76435fa3d088787/p/o/potatopancakes.jpg" 
+                    alt="Potato Latkes"
+                    class="menu-image">
+                    <div class="menu-info"><h3>Potato Latkes</h3>
+                        <p>
+                            A latke is a type of potato pancake or fritter found in Ashkenazi Jewish cuisine. The dish, which is traditionally served during Hanukkah, can be made with grated, shredded, or mashed potatoes. This top-rated recipe is made with shredded russet potatoes, all-purpose flour, an egg, an onion, and salt. The potato latkes are fried in peanut oil.
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <img src="https://d2zyb4ugwufqpc.cloudfront.net/media/catalog/product/cache/5604a98872d49d91b76435fa3d088787/c/h/chopliversq_1.jpg" 
+                    alt="Chopped Liver By The Lb"
+                    class="menu-image">
+                    <div class="menu-info">
+                        <h3>Chopped Liver</h3>
+                    <p>
+                        Our chopped liver is made in-house with our blend of chicken liver, carmelized onions, diced egg, and seasonings. Our regulars agree - we serve some of the best chopped liver anywhere in the city!
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+        <section id="order-form">
+            <h2>
+                Place Your Order
+            </h2>
+            <form action="" class="place-order">
+                <div id="main-dishes">
+                <h3>Main Dishes</h3>
+                <div id="main-dishes-labels">
+                    <label for="" id="dish-no">
+                        <span>Pastrami Sandwich</span>: 
+                        <input type="number" min="0">
+                    </label>
+                    <label for="" id="dish-no">
+                        <span>Potato Latkes</span>:
+                        <input type="number" min="0">
+                    </label>
+                    <label for="" id="dish-no">
+                        <span>Chopped Liver</span>:
+                        <input type="number" min="0">
+                    </label>
+                </div>
+                </div>
+                <div id="add-ons">
+                    <h3>
+                        Sides & Add-Ons
+                    </h3>
+                    <div id="add-ons-labels">
+                        <label for="sides-1" class="checkbox">
+                            <input type="checkbox" name="sides" id="sides-1">
+                            <span>Cheesy smashed potatoes</span>
+                        </label>
+                        <label for="sides-2"class="checkbox">
+                            <input type="checkbox" name="sides" id="sides-2">
+                            <span>Garlic bread</span>
+                        </label>
+                        <label for="sides-3"class="checkbox">
+                            <input type="checkbox" name="sides" id="sides-3">
+                            <span>Fresh Craberry sause</span>
+                        </label>
+                        <label for="sides-4"class="checkbox">
+                            <input type="checkbox" name="sides" id="sides-4">
+                            <span>Easy potato wedges</span>
+                        </label>
+                        <label for="sides-5"class="checkbox">
+                            <input type="checkbox" name="sides" id="sides-5">
+                            <span>Easy Stuffed potatoes</span> 
+                        </label>
+                    </div>
+                </div>
+                <div id="special-requests">
+                    <label for="sides-special"class="checkbox">
+                        Special requests
+                        <textarea name="" id="sides-special" rows="2" placeholder="Enter your special requests"></textarea>
+                    </label>
+                </div>
+                <input type="submit" name="" id=""  value="Go to Checkout" >
+            </form>
+        </section>
+    </main><br><hr>
+    <footer>
+        <p>
+            Made with love by @joyalsiby
+        </p>
+    </footer>
+</body>
+</html>
